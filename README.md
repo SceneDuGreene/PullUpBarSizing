@@ -19,7 +19,7 @@ These cross-sectional dimensions are calcualted from using the more conservative
 In the worst case scenario (B1), the entire load will contribute fully to the bending of the supporting members. This is likely to happen if the user is expecting to do gymnatics movements such as Giants (when a gymnast rotates 360 degrees around an axis while in a fully extended position).
 
 ####
-Here we can calculate the side, s of the beam to be: <img src="https://latex.codecogs.com/svg.image?s&space;=&space;\sqrt[3]{\frac{6Pl}{\sigma&space;_{yield}}}" title="SOLVED normal stress due to bending" />
+Here we can calculate the side, s of the beam to be: <img src="https://latex.codecogs.com/svg.image?s&space;=&space;\sqrt[3]{\frac{6Pl}{\sigma&space;_{yield}*NumberOfPosts}}" title="SOLVED normal stress due to bending" />
 
 ####
  
@@ -30,7 +30,7 @@ Here we can calculate the side, s of the beam to be: <img src="https://latex.cod
 This equation allows us to include information about the material properties in addition information about the cross-section of the beam used. Generally, we want to limit deflection to less than one half of the cross-sectional side dimension.
 
 Here we can calculate the side, s of the beam to be:
-<img src="https://latex.codecogs.com/svg.image?s&space;=&space;\sqrt[5]{\frac{8Pl^{3}}{E}}" title="SOLVED deflection based on desired deflection" />
+<img src="https://latex.codecogs.com/svg.image?s&space;=&space;\sqrt[5]{\frac{8Pl^{3}}{E*NumberOfPosts}}" title="SOLVED deflection based on desired deflection" />
 
 ## Getting Started
 Start by figuring out the 4 pieces of information that you will need to assign to these variables.
