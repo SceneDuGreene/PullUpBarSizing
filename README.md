@@ -11,7 +11,9 @@ This PYTHON program is used to figure out the minimum cross-sectional dimension 
 These cross-sectional dimensions are calcualted from using the more conservative value from general Stress Equations from Properties of Materials.
 
 # Background of Eq's Used
->We could use the stress equation that estimates the noraml stress due to bending: 
+>We could use the stress equation that estimates the noraml stress due to bending:
+
+![beam_drawing](https://github.com/SceneDuGreene/PullUpBarSizing/blob/main/bending_diagram.PNG)
 
 <img src="https://latex.codecogs.com/svg.image?\sigma_{normal}&space;=\frac{Mc}{I}" title="\sigma_{normal} =\frac{Mc}{I}" width="150" height="150"/>
 In the worst case scenario, the entire load will contribute fully to the bending of the supporting members. This is likely to happen if the user is expecting to do gymnatics movements such as [Giants](https://en.wikipedia.org/wiki/Giant_(gymnastics)) (when a gymnast rotates 360 degrees around an axis while in a fully extended position)
