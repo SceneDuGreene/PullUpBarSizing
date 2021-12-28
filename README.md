@@ -11,12 +11,12 @@ This PYTHON program is used to figure out the minimum cross-sectional side dimen
 These cross-sectional dimensions are calcualted from using the more conservative value from general Stress Equations from Properties of Materials.
 
 # Background of Equations Used
->We could use the stress equation that estimates the normal stress due to bending:
 
-![beam_drawing](https://github.com/SceneDuGreene/PullUpBarSizing/blob/main/bending_diagram.PNG)
+![beam_drawing](https://github.com/SceneDuGreene/PullUpBarSizing/blob/main/pullup_supports_FBDs.png)
 
+> We could use the stress equation that estimates the normal stress due to bending as seen in Case B:
 <img src="https://latex.codecogs.com/svg.image?\sigma_{normal}&space;=\frac{Mc}{I}" title="normal stress due to bending" width="150" height="150"/>
-In the worst case scenario, the entire load will contribute fully to the bending of the supporting members. This is likely to happen if the user is expecting to do gymnatics movements such as Giants (when a gymnast rotates 360 degrees around an axis while in a fully extended position).
+In the worst case scenario (B1), the entire load will contribute fully to the bending of the supporting members. This is likely to happen if the user is expecting to do gymnatics movements such as Giants (when a gymnast rotates 360 degrees around an axis while in a fully extended position).
 
 ####
 Here we can calculate the side, s of the beam to be: <img src="https://latex.codecogs.com/svg.image?s&space;=&space;\sqrt[3]{\frac{6Pl}{\sigma&space;_{yield}}}" title="SOLVED normal stress due to bending" />
