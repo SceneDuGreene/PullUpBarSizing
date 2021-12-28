@@ -63,4 +63,4 @@ The program will then ask you to select your choice of material and will output 
 Based on Elasticity (point-load deflection), Side dimension of wood needs to be 3.3851648625016493 inches**
 
 ## Interpretation of Output
-In this example, the side dimensions for wood were calculated to be 6.32in (Bending Stress Theory) and 3.38in (Point-Load Deflection Theory). I would reccomend using the larger of the values, 6.32in x 6.32in x 84in post. In this case, the bending stress equation gave us the more conservative value. 
+In this example, the side dimensions for wood were calculated to be 6.32in (Bending Stress Theory) and 3.38in (Point-Load Deflection Theory). I would reccomend using the larger of the values, 2 wooden 6.32in x 6.32in x 84in posts. In this case, the bending stress equation gave us the more conservative value. 
